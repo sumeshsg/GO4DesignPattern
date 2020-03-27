@@ -1,2 +1,2 @@
 # GO4DesignPattern
-GO4 Design Pattern IN python
+GO4 Design Pattern in Python
