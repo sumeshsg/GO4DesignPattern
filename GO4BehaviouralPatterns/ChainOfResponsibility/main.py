@@ -1,8 +1,8 @@
-from ChainOfResponsibility.FiveCentHandler import FiveCentHandler
-from ChainOfResponsibility.FiftyCentHandler import FiftyCentHandler
-from ChainOfResponsibility.TenCentHandler import TenCentHandler
-from ChainOfResponsibility.TwentyCentHandler import TwentyCentHandler
-from ChainOfResponsibility.Coin import Coin
+from GO4BehaviouralPatterns.ChainOfResponsibility.FiveCentHandler import FiveCentHandler
+from GO4BehaviouralPatterns.ChainOfResponsibility.FiftyCentHandler import FiftyCentHandler
+from GO4BehaviouralPatterns.ChainOfResponsibility.TenCentHandler import TenCentHandler
+from GO4BehaviouralPatterns.ChainOfResponsibility.TwentyCentHandler import TwentyCentHandler
+from GO4BehaviouralPatterns.ChainOfResponsibility.Coin import Coin
 
 if __name__ == '__main__':
     h5 = FiveCentHandler()

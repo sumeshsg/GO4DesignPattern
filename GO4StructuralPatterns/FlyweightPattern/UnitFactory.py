@@ -1,5 +1,5 @@
-from FlyweightPattern.Tank import Tank
-from FlyweightPattern.Soldier import Soldier
+from GO4StructuralPatterns.FlyweightPattern.Tank import Tank
+from GO4StructuralPatterns.FlyweightPattern.Soldier import Soldier
 
 
 class UnitFactory(object):

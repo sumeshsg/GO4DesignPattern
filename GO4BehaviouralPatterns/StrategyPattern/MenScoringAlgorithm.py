@@ -1,4 +1,4 @@
-from StrategyPattern.ScoringAlgorithmBase import ScoringAlgorithmBase
+from GO4BehaviouralPatterns.StrategyPattern.ScoringAlgorithmBase import ScoringAlgorithmBase
 
 
 class MenScoringAlgorithm(ScoringAlgorithmBase):

@@ -1,6 +1,6 @@
-from StrategyPattern.MenScoringAlgorithm import MenScoringAlgorithm
-from StrategyPattern.Scoreboard import Scoreboard
-from StrategyPattern.WomenScoringAlgorithm import WomenScoringAlgorithm
+from GO4BehaviouralPatterns.StrategyPattern.MenScoringAlgorithm import MenScoringAlgorithm
+from GO4BehaviouralPatterns.StrategyPattern.Scoreboard import Scoreboard
+from GO4BehaviouralPatterns.StrategyPattern.WomenScoringAlgorithm import WomenScoringAlgorithm
 
 if __name__ == '__main__':
     scoreboard = Scoreboard()

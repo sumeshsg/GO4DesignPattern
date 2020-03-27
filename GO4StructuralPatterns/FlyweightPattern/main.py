@@ -1,5 +1,5 @@
-from FlyweightPattern.UnitFactory import UnitFactory
-from FlyweightPattern.Target import Target
+from GO4StructuralPatterns.FlyweightPattern.UnitFactory import UnitFactory
+from GO4StructuralPatterns.FlyweightPattern.Target import Target
 
 if __name__ == '__main__':
     unit_factory = UnitFactory()

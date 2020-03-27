@@ -1,4 +1,4 @@
-from ObserverPattern.EventMonitor import EventMonitor
+from GO4BehaviouralPatterns.ObserverPattern.EventMonitor import EventMonitor
 
 
 class EventEmailer(EventMonitor):

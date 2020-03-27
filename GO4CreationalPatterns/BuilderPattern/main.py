@@ -1,5 +1,5 @@
-from BuilderPattern.Audi import Audi
-from BuilderPattern.Director import Director
+from GO4CreationalPatterns.BuilderPattern.Audi import Audi
+from GO4CreationalPatterns.BuilderPattern.Director import Director
 
 if __name__ == '__main__':
     director = Director()

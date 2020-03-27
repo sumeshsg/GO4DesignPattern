@@ -1,4 +1,4 @@
-from PrototypePattern.Developer import Developer
+from GO4CreationalPatterns.PrototypePattern.Developer import Developer
 
 if __name__ == '__main__':
     developer_sg = Developer('SG', 'Python')

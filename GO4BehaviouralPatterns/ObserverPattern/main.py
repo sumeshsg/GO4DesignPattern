@@ -1,6 +1,6 @@
-from ObserverPattern.EventEmailer import EventEmailer
-from ObserverPattern.EventLogger import EventLogger
-from ObserverPattern.EventReceiver import EventReceiver
+from GO4BehaviouralPatterns.ObserverPattern.EventEmailer import EventEmailer
+from GO4BehaviouralPatterns.ObserverPattern.EventLogger import EventLogger
+from GO4BehaviouralPatterns.ObserverPattern.EventReceiver import EventReceiver
 
 if __name__ == '__main__':
     # event_receiver = EventReceiver()

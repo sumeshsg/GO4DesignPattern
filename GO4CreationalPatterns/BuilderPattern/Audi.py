@@ -1,7 +1,7 @@
-from BuilderPattern.BulderBase import BuilderBase
-from BuilderPattern.Wheel import Wheel
-from BuilderPattern.Engine import Engine
-from BuilderPattern.Body import Body
+from GO4CreationalPatterns.BuilderPattern.BulderBase import BuilderBase
+from GO4CreationalPatterns.BuilderPattern.Wheel import Wheel
+from GO4CreationalPatterns.BuilderPattern.Engine import Engine
+from GO4CreationalPatterns.BuilderPattern.Body import Body
 
 
 class Audi(BuilderBase):

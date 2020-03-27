@@ -1,4 +1,4 @@
-from SingletonPattern.Singleton import Singleton
+from GO4CreationalPatterns.SingletonPattern.Singleton import Singleton
 
 if __name__ == '__main__':
     s = Singleton()

@@ -1,5 +1,5 @@
-from Command.RobotCommand import RobotCommand
-from Command.Robot import Robot
+from GO4BehaviouralPatterns.Command.RobotCommand import RobotCommand
+from GO4BehaviouralPatterns.Command.Robot import Robot
 
 
 class RotateCommand(RobotCommand):

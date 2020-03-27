@@ -1,4 +1,4 @@
-from ChainOfResponsibility.CoinHandlerBase import CoinHandlerBase
+from GO4BehaviouralPatterns.ChainOfResponsibility.CoinHandlerBase import CoinHandlerBase
 
 
 class TwentyCentHandler(CoinHandlerBase):

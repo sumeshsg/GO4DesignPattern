@@ -1,6 +1,6 @@
-from MediatorPattern.Mediator import Mediator
-from MediatorPattern.Attendee import Attendee
-from MediatorPattern.Presenter import Presenter
+from GO4BehaviouralPatterns.MediatorPattern.Mediator import Mediator
+from GO4BehaviouralPatterns.MediatorPattern.Attendee import Attendee
+from GO4BehaviouralPatterns.MediatorPattern.Presenter import Presenter
 
 if __name__ == '__main__':
     mediator = Mediator()

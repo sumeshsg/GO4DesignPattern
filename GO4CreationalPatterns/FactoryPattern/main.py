@@ -1,4 +1,4 @@
-from FactoryPattern.ButtonFactory import ButtonFactory
+from GO4CreationalPatterns.FactoryPattern.ButtonFactory import ButtonFactory
 
 if __name__ == '__main__':
     button_factory = ButtonFactory()

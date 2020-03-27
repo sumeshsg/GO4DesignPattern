@@ -1,4 +1,4 @@
-from BuilderPattern.Car import Car
+from GO4CreationalPatterns.BuilderPattern.Car import Car
 
 
 class Director(object):

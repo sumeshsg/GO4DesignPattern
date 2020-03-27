@@ -1,4 +1,4 @@
-from AdapterPattern.IntranetBase import IntranetBase
+from GO4StructuralPatterns.AdapterPattern.IntranetBase import IntranetBase
 
 
 class PhoneListAdapter(IntranetBase):

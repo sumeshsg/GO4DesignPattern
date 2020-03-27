@@ -1,8 +1,8 @@
-from Command.Robot import Robot
-from Command.RobotController import RobotController
-from Command.MoveCommand import MoveCommand
-from Command.RotateCommand import RotateCommand
-from Command.ScoopCommand import ScoopCommand
+from GO4BehaviouralPatterns.Command.Robot import Robot
+from GO4BehaviouralPatterns.Command.RobotController import RobotController
+from GO4BehaviouralPatterns.Command.MoveCommand import MoveCommand
+from GO4BehaviouralPatterns.Command.RotateCommand import RotateCommand
+from GO4BehaviouralPatterns.Command.ScoopCommand import ScoopCommand
 
 if __name__ == '__main__':
     robot = Robot()

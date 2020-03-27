@@ -1,6 +1,6 @@
 import copy
 
-from PrototypePattern.Employee import Employee
+from GO4CreationalPatterns.PrototypePattern.Employee import Employee
 
 
 class Developer(Employee):

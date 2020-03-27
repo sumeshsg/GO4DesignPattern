@@ -1,5 +1,5 @@
-from MementoPattern.Book import Book
-from MementoPattern.Action import Action
+from GO4BehaviouralPatterns.MementoPattern.Book import Book
+from GO4BehaviouralPatterns.MementoPattern.Action import Action
 
 if __name__ == '__main__':
     book1 = Book()
