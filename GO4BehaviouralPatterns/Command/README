@@ -1,0 +1,11 @@
+The command pattern is a Gang of Four design pattern.
+This is a behavioural pattern as it defines a manner for controlling communication between classes or entities.
+The command object does not contain the functionality that is to be executed, only the information required to perform an action.
+The functionality is contained within receiver objects.
+This removes the direct link between the command definitions and the functionality, promoting loose coupling.
+Neither of these object types is responsible for determining the time of execution of the command.
+This is controlled using an invoker.
+
+The command pattern is useful when supporting activities that require the execution of a series of commands.
+The command objects can be held in a queue and processed sequentially.
+If each command is stored on a stack after it is executed, and if the commands are reversible, this allows the implementation of a rollback or multi-level undo facility.

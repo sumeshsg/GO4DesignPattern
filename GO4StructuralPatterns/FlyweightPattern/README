@@ -1,0 +1,10 @@
+The flyweight design pattern is used to reduce the memory and resource usage for complex models containing many hundreds,
+thousands or even hundreds of thousands of similar objects.
+
+When you need to create a very large number of objects, each requires an amount of memory to store the object's state.
+Even if the storage requirements for each individual object are small, the number of objects may cause the overall memory usage to be high.
+Depending upon the scenario and the target environment, the memory usage may be so high that the program cannot execute.
+
+In some cases, the objects being created may include information that is often duplicated.
+Where this is true, the flyweight pattern can be used.
+

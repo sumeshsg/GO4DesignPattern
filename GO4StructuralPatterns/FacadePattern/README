@@ -1,0 +1,4 @@
+The facade design pattern is used to define a simplified interface to a more complex subsystem.
+The facade pattern is ideal when working with a large number of interdependent classes,
+ or with classes that require the use of multiple methods, particularly when they are complicated to use or difficult to understand.
+ The facade class is a "wrapper" that contains a set of members that are easily understood and simple to use

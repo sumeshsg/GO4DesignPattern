@@ -1,0 +1,2 @@
+The adapter pattern is a design pattern that is used to allow two incompatible types to communicate.
+Where one class relies upon a specific interface that is not implemented by another class, the adapter acts as a translator between the two types.
