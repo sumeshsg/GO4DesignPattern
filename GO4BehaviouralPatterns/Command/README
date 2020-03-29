@@ -1,5 +1,3 @@
-The command pattern is a Gang of Four design pattern.
-This is a behavioural pattern as it defines a manner for controlling communication between classes or entities.
 The command object does not contain the functionality that is to be executed, only the information required to perform an action.
 The functionality is contained within receiver objects.
 This removes the direct link between the command definitions and the functionality, promoting loose coupling.
