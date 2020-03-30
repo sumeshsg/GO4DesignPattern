@@ -7,3 +7,6 @@ This is controlled using an invoker.
 The command pattern is useful when supporting activities that require the execution of a series of commands.
 The command objects can be held in a queue and processed sequentially.
 If each command is stored on a stack after it is executed, and if the commands are reversible, this allows the implementation of a rollback or multi-level undo facility.
+
+
+Use Case :Control the actions of a robot

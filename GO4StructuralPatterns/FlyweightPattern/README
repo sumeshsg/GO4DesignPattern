@@ -8,3 +8,5 @@ Depending upon the scenario and the target environment, the memory usage may be 
 In some cases, the objects being created may include information that is often duplicated.
 Where this is true, the flyweight pattern can be used.
 
+Use case : Dummy Object Creation in gaming software
+

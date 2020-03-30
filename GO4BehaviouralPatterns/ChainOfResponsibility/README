@@ -1,7 +1,7 @@
-The chain of responsibility pattern is a Gang of Four design pattern.
-This is a behavioural pattern as it defines a manner for controlling communication between classes or entities.
 The chain of responsibility pattern is used to process varied requests, each of which may be dealt with by a different handler.
 The design pattern promotes loose coupling by allowing a series of handlers to be created in a linked list or chain.
 The request is passed to the first handler in the chain, which will either process it or pass it on to its successor.
 This continues until the request is processed or the end of the chain is reached.
 The handler responsible for the final processing of the request need not be known beforehand
+
+Use Case: Coin handling system

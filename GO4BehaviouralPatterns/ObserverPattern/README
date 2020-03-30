@@ -1,2 +1,4 @@
 The observer pattern is used to allow a single object, known as the subject, to publish changes to its state.
-Many other observer objects that depend upon the subject can subscribe to it so that they are immediately and automatically notified of any changes to the subject's state
+Many other observer objects that depend upon the subject can subscribe to it so that they are immediately and automatically notified of any changes to the subject's state.
+
+Use Case: Event Receiver

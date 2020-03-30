@@ -1,3 +1,5 @@
 Builder Pattern is a unique design pattern which helps in building complex object using simple objects and uses an algorithmic approach.
 In this design pattern, a builder class builds the final object in step-by-step procedure.
 This builder is independent of other objects
+
+Use Case: Car Building

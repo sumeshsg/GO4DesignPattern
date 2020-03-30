@@ -3,3 +3,5 @@ Instead of classes communicating directly, and thus requiring knowledge of their
 The mediator object then transmits the messages to the other classes in a manner that they can interpret.
 The mediator pattern promotes loose coupling of classes by removing the direct dependencies.
 It can also simplify communication in general when a program contains a large number of classes that interact
+
+UseCase: Slide Presentation
