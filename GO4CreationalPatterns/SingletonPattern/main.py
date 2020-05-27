@@ -1,11 +1,8 @@
-from GO4CreationalPatterns.SingletonPattern.Singleton import Singleton
+from GO4CreationalPatterns.SingletonPattern.Singleton import SingleTon
 
 if __name__ == '__main__':
-    s = Singleton()
-    print(s)
-
-    s = Singleton.get_instance()
-    print(s)
-
-    s = Singleton.get_instance()
-    print(s)
+    obj1 = SingleTon()
+    obj2 = SingleTon()
+    print(obj1)
+    print(obj2)
+    print(obj1.x == obj1.x)

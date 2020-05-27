@@ -1,14 +1,8 @@
-class Singleton:
+class SingleTon(object):
     _instance = None
 
-    def __init__(self):
-        if Singleton._instance != None:
-            raise Exception("This class is single ton")
-        else:
-            Singleton._instance = self
-
-    @staticmethod
-    def get_instance():
-        if Singleton._instance == None:
-            Singleton()
-        return Singleton._instance
+    def __new__(self):
+        if self._instance is None:
+            self._instance = super(SingleTon, self).__new__(self)
+            self.x = 10
+        return self._instance
