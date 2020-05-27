@@ -1,8 +1,8 @@
 class SingleTon(object):
     _instance = None
 
-    def __new__(self):
-        if self._instance is None:
-            self._instance = super(SingleTon, self).__new__(self)
-            self.x = 10
-        return self._instance
+    def __new__(cls):
+        if cls._instance is None:
+            cls._instance = super(SingleTon, cls).__new__(cls)
+            cls.x = 10
+        return cls._instance
