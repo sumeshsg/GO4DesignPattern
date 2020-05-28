@@ -10,4 +10,5 @@ if __name__ == '__main__':
     adapter = PhoneListAdapter(personnel_system)
 
     intranet = Intranet(adapter)
-    print(intranet.show_phone_list())
+    for item in intranet.get_employee():
+        print (item)
