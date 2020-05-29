@@ -6,6 +6,7 @@ from GO4CreationalPatterns.AbstractFactory.car_factory import CarFactory
 class AudiCarFactory(CarFactory):
     models = {"Q5": QFive,
               "Q3": QThree}
+
     model = None
 
     def __init__(self, model):
