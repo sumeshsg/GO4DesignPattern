@@ -9,4 +9,3 @@ class XThree(object):
     @staticmethod
     def deliver_car():
         return "Deliver X Three"
-
