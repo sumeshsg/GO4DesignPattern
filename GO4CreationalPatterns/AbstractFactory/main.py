@@ -10,7 +10,7 @@ if __name__ == '__main__':
     print(client.create_car())
     print(client.deliver_car())
     print(">>>>>>>>>>>>>>>>>>>>>BMW")
-    bmw_car_factory = BmwCarFactory(model="X1")
+    bmw_car_factory = BmwCarFactory(model="X3")
     client = Client(bmw_car_factory)
     print(client.create_car())
     print(client.deliver_car())
